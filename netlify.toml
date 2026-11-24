@@ -8,10 +8,56 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-# Domain redirects for legacy hosts should be configured in the Netlify UI
-# (or DNS / domain settings) as 301s to https://tdstills.com — not as
-# client-side JS redirects. No path-level [[redirects]] here that would
-# conflict with Next.js App Router routes.
+# Product portfolio paths now live on tarusstills.com.
+# These are individual paths, not a domain-wide redirect.
+
+[[redirects]]
+  from = "/product"
+  to = "https://tarusstills.com/product"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/products"
+  to = "https://tarusstills.com/product"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/work/amira-learning"
+  to = "https://tarusstills.com/work/amira-learning"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/work/caidens-courage"
+  to = "https://tarusstills.com/work/caidens-courage"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/work/genius-sports"
+  to = "https://tarusstills.com/work/genius-sports"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/work/hbcugo"
+  to = "https://tarusstills.com/work/hbcugo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/work/montagecms"
+  to = "https://tarusstills.com/work/montagecms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/work/state-farm"
+  to = "https://tarusstills.com/work/state-farm"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "https://stillianoblack.com/*"

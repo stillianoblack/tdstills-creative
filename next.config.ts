@@ -61,6 +61,46 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/product",
+        destination: "https://tarusstills.com/product",
+        permanent: true,
+      },
+      {
+        source: "/products",
+        destination: "https://tarusstills.com/product",
+        permanent: true,
+      },
+      {
+        source: "/work/amira-learning",
+        destination: "https://tarusstills.com/work/amira-learning",
+        permanent: true,
+      },
+      {
+        source: "/work/caidens-courage",
+        destination: "https://tarusstills.com/work/caidens-courage",
+        permanent: true,
+      },
+      {
+        source: "/work/genius-sports",
+        destination: "https://tarusstills.com/work/genius-sports",
+        permanent: true,
+      },
+      {
+        source: "/work/hbcugo",
+        destination: "https://tarusstills.com/work/hbcugo",
+        permanent: true,
+      },
+      {
+        source: "/work/montagecms",
+        destination: "https://tarusstills.com/work/montagecms",
+        permanent: true,
+      },
+      {
+        source: "/work/state-farm",
+        destination: "https://tarusstills.com/work/state-farm",
+        permanent: true,
+      },
+      {
         source: "/work/about",
         destination: "/about",
         permanent: true,
